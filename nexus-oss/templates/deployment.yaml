@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nexus
-          image: sonatype/nexus3:latest
+          image: sonatype/nexus3:3.47.1
           resources:
             limits:
               memory: "4Gi"
